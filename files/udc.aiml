@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+   <category>
+      <pattern>merhaba</pattern>
+      <template>merhaba <set name = "topic">selam</set></template>  
+   </category>
+   
+   <topic name = "selam">
+      <category>
+         <pattern>film önerin var mı</pattern>
+         <template>esaretin bedeli.</template>
+      </category>
+      
+      <category>
+         <pattern> komedi filmi izlemeyi severim. </pattern>
+         <template>I like comedy movies too.</template>
+      </category>
+      
+   </topic>
+<category>
+    <pattern>merhaba</pattern>
+    <template>merhaba</template>
+</category>
+<category>
+    <pattern>egemen efe</pattern>
+    <template>krall adam
+</template>
+</category>
+</aiml>
